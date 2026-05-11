@@ -1,0 +1,8 @@
+
+.DS_Store
+Thumbs.db
+EOF
+
+#Archivos locales de prueba.
+ConexionTest.java
+ConexionTest.class
