@@ -1,9 +1,6 @@
 package entidad;
 
-import java.io.Serializable;
-
-public class Usuario implements Serializable {
-    private static final long serialVersionUID = 1L;
+public class Usuario {
 
     private int idUsuario;
     private String nombreUsuario;
@@ -19,7 +16,7 @@ public class Usuario implements Serializable {
         this.contrasena = pass;
     }
 
-    //Getters y Setters
+    // Getters y Setters
     public int getIdUsuario() { return idUsuario; }
     public void setIdUsuario(int idUsuario) { this.idUsuario = idUsuario; }
 
@@ -29,6 +26,7 @@ public class Usuario implements Serializable {
     public String getContrasena() { return contrasena; }
     public void setContrasena(String contrasena) { this.contrasena = contrasena; }
 
+    @Override
     public String toString() {
         return "Usuario [id=" + idUsuario + ", nombre=" + nombreUsuario + "]";
     }
