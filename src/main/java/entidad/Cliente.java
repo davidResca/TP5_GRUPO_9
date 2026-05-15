@@ -38,11 +38,11 @@ public class Cliente {
 		this.correo_electronico = correo_electronico;
 	}
 
-	public int getId_cliente() {
+	public int getIdCliente() {
 		return id_cliente;
 	}
 
-	public void setId_cliente(int id_cliente) {
+	public void setIdCliente(int id_cliente) {
 		this.id_cliente = id_cliente;
 	}
 
@@ -94,11 +94,11 @@ public class Cliente {
 		this.sexo = sexo;
 	}
 
-	public String getFecha_nacimiento() {
+	public String getFechaNacimiento() {
 		return fecha_nacimiento;
 	}
 
-	public void setFecha_nacimiento(String fecha_nacimiento) {
+	public void setFechaNacimiento(String fecha_nacimiento) {
 		this.fecha_nacimiento = fecha_nacimiento;
 	}
 
@@ -134,11 +134,11 @@ public class Cliente {
 		this.provincia = provincia;
 	}
 
-	public String getCorreo_electronico() {
+	public String getCorreoElectronico() {
 		return correo_electronico;
 	}
 
-	public void setCorreo_electronico(String correo_electronico) {
+	public void setCorreoElectronico(String correo_electronico) {
 		this.correo_electronico = correo_electronico;
 	}
 
